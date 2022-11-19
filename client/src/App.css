@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.game {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.box {
+	height: 2em;
+	width: 3em;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+}
+
+.box:hover {
+	background-color: red !important;
+}
